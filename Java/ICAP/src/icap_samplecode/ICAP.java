@@ -27,7 +27,7 @@ class ICAP {
     private final String VERSION   = "1.0";
     private final String USERAGENT = "IT-Kartellet ICAP Client/1.1";
     private final String ICAPTERMINATOR = "\r\n\r\n";
-    private final String HTTPTERMINATOR = "0\r\n\r\n";
+    private final String HTTPTERMINATOR = "\r\n0\r\n\r\n";
     
     private int stdPreviewSize;
     private final int stdRecieveLength = 8192;
